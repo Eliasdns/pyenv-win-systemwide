@@ -1,0 +1,6 @@
+@echo off
+echo [*] Updating pyenv-win...
+powershell -NoProfile -ExecutionPolicy ByPass -File %~dp0update.ps1
+
+echo.
+pause>nul | echo [*] End! Press any key to Exit...
